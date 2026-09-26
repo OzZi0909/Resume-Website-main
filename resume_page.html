@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Boni - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #333333;
+            line-height: 1.5;
+            padding: 40px 20px;
+        }
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #fdfbfc; /* Warm off-white tone from the image */
+            padding: 50px 60px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+        }
+        
+        /* Header Section */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .header-left {
+            flex: 1;
+        }
+        .name {
+            font-size: 42px;
+            font-weight: 300;
+            letter-spacing: 12px;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+        .name .bold {
+            font-weight: 700;
+            display: block;
+            margin-top: 5px;
+        }
+        .subtitle {
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            margin-top: 15px;
+            color: #222222;
+        }
+        .header-right {
+            text-align: right;
+            font-size: 13px;
+            color: #444444;
+            line-height: 1.6;
+            padding-left: 20px;
+            border-left: 1px solid #cccccc;
+            min-height: 90px;
+        }
+        .header-right a {
+            color: #666666;
+            text-decoration: underline;
+        }
+
+        /* Layout Columns */
+        .main-content {
+            display: flex;
+            gap: 50px;
+            margin-top: 25px;
+        }
+        .left-col {
+            flex: 1.1;
+        }
+        .right-col {
+            flex: 1.9;
+        }
+
+        /* Typography & Section Styles */
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+        }
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        .right-col h2 {
+            margin-top: 30px;
+        }
+        .right-col h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #111111;
+            margin-top: 15px;
+            margin-bottom: 2px;
+        }
+        .sub-heading {
+            font-size: 13px;
+            font-weight: 500;
+            color: #555555;
+            margin-bottom: 8px;
+        }
+
+        p, li {
+            font-size: 13.5px;
+            color: #444444;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 8px;
+        }
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #333333;
+            font-size: 14px;
+        }
+
+        .left-col li {
+            margin-bottom: 12px;
+        }
+        .bold-text {
+            font-weight: 700;
+            color: #111111;
+        }
+        .italic-text {
+            font-style: italic;
+        }
+
+        /* Experience Block */
+        .exp-block {
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .resume-container {
+                padding: 30px 20px;
+            }
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .header-right {
+                text-align: left;
+                padding-left: 0;
+                border-left: none;
+                min-height: auto;
+            }
+            .main-content {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+            <h1 class="h1_1_tag">Resume & Contact</h1>
+            <nav class="nav_1_tag">
+                <a href="index.html" style="color: black;">Home</a> | <a href="resume.html" style="color: black;">Resume</a> | <a href="skills.html" style="color: black;">Skills</a> |  <a href="JobDescription.html" style="color: black;">Description</a> | <a href="education.html" style="color: black;">Education</a> | <a href="JobMarket.html" style="color: black;">Market</a>
+            </nav>
+    </header>
+<div class="resume-container">
+    <header>
+        <div class="header-left">
+            <h1 class="name">Oscar <span class="bold">Boni</span></h1>
+            <div class="subtitle">Cyber Security Student</div>
+        </div>
+        <div class="header-right">
+            <div>+509-822-8982</div>
+            <div>oscardboni@gmail.com</div>
+            <div>Verdale, Washington</div>
+            <div><a href="#" target="_blank">LinkedIn Profile</a></div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <!-- Left Column -->
+        <div class="left-col">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <span class="bold-text">Spokane Valley Tech</span> —<br>
+                    <span class="italic-text">Spokane Valley, WA</span>
+                </li>
+                <li>
+                    High School Diploma Candidate<br>
+                    (Expected Graduation: June 2028)
+                </li>
+                <li>
+                    <span class="bold-text">Relevant Coursework:</span><br>
+                    Network Security Concepts, Operating System Hardening, Linux Fundamentals, Hardware Troubleshooting.
+                </li>
+            </ul>
+
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>
+                    <span class="bold-text">Operating Systems:</span> Windows, Linux (Ubuntu/Debian), ChromeOS.
+                </li>
+                <li>
+                    <span class="bold-text">Security & Networking:</span> OS Hardening, Vulnerability Identification.
+                </li>
+                <li>
+                    <span class="bold-text">Hardware & Systems:</span> Server Management, Hardware Assembly, Component Wiring, Chromebook Deployment, System Troubleshooting.
+                </li>
+                <li>
+                    <span class="bold-text">Core Competencies:</span> Team Collaboration, Technical Problem Solving, Project Presentation.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-col">
+            <h2>Professional Summary</h2>
+            <p>I am a passionate tech student focused on IT systems, secure OS setups, and hardware repair. Through my coursework and national STEM competitions, I have learned how to solve technical problems under pressure and work smoothly in a team. I want to bring my strong work ethic and troubleshooting skills to the summer Chromebook deployment project.</p>
+
+            <h2>Technical Experiences</h2>
+            
+            <div class="exp-block">
+                <h3>National Finalist & Grant Recipient</h3>
+                <div class="sub-heading">eCybermission Competitions | June 2025</div>
+                <ul>
+                    <li>Engineered and presented a national-level technical solution within a collaborative team environment.</li>
+                    <li>Secured a STEM in Action grant by demonstrating technical execution, detailed project design, and community impact.</li>
+                </ul>
+            </div>
+
+            <div class="exp-block">
+                <h3>Competitor</h3>
+                <div class="sub-heading">CyberPatriot Defense Program | November 2024 - January 2025</div>
+                <ul>
+                    <li>Hardened Windows and Linux virtual images by identifying system vulnerabilities and implementing strict user policies.</li>
+                    <li>Optimized network operating systems and mitigated critical security flaws under strict competitive constraints.</li>
+                </ul>
+            </div>
+
+            <div class="exp-block">
+                <h3>Team Member & Homelab Enthusiast</h3>
+                <div class="sub-heading">Robotics Team & Personal Projects | 2024 - Present</div>
+                <ul>
+                    <li>Configured and maintained a dedicated personal homelab server environment to master enterprise computer hardware.</li>
+                    <li>Assembled, wired, and programmed competitive robotics hardware using precise engineering principles.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

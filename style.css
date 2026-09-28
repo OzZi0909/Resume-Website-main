@@ -153,6 +153,8 @@ hr {
 .second_image {
     flex: 1 1 40%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top: 4%;
     margin-bottom: 5%;
@@ -165,6 +167,13 @@ hr {
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     transition: transform 0.25s ease;
+}
+
+.second_image p {
+    margin-top: 12px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.95rem;
 }
 
 .second_image img:hover {
@@ -180,8 +189,8 @@ hr {
 }
 
 .third_image img {
-    width: 100%;
-    max-width: 420px;
+    width: 500% ;
+    max-width: 670px;
     height: auto;
     border-radius: 12px;
     transition: transform 0.25s ease;
@@ -236,7 +245,7 @@ hr {
     width: 100%;
     max-width: 700px;
     height: auto;
-    border-radius: 12px;
+    border-radius: px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     transition: transform 0.25s ease;
 }

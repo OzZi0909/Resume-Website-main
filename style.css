@@ -50,6 +50,7 @@
 
 .first_box {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 30px;
     padding: 20px;
@@ -109,6 +110,10 @@ hr {
     min-height: 100vh;
     box-sizing: border-box;
   background-image: linear-gradient(to bottom, rgb(85, 112, 143), rgb(33, 54, 85));
+}
+
+.background_1 .first_box {
+        flex-direction: row;
 }
 
 .background_2 {
@@ -220,7 +225,7 @@ hr {
 }
 
 .fith_image {
-    flex: 1 1 40%;
+    flex: 1 1 50%;
     display: flex;
     justify-content: center;
     margin-top: 4%;

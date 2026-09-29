@@ -461,3 +461,23 @@ hr {
         width: 100%;
     }
 }
+
+.sixth_image {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.sixth_image img {
+    width: 500% ;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.25s ease;
+}
+
+.sixth_image img:hover {
+    transform: scale(1.04);
+}
